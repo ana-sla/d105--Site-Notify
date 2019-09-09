@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas: 'header header' 
+                         'nav nav'
+                         'section section'
+                         'main main'
+                         'footer footer';
+    grid-template-columns:   50vw 50vw;    
+    grid-template-rows:      30vh 20vh 25vh 30vh 15vh;               
+}
+header h2{
+        display: flex;
+        align-items: flex-start;
+        margin: 0px;
+        justify-content: flex-start;
+}
+header{
+    background-image: url("..//images/banner.png");
+    grid-area: header;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+} 
+header img{
+  width: 130px;
+  height: 130px;
+  padding: 0 20px
+
+}
+nav{
+    grid-area: nav;
+}
